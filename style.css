@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6ffff;
+}
+
+.cabecalho {
+    color: #000;
+    background-color:#b3ffff;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    border-bottom: 2px solid #000;
+}
+
+.cabecalho-titulo {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cabecalho-descricao {
+    font-size: 18px;   
+    font-weight: bold;
+}
+
+.apresentacao {
+    /* space */
+}
+
+.apresentacao-titulo {
+    text-align: center;
+    padding-top: 55px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.apresentacao-perfil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.perfil {
+    text-transform: uppercase;
+    font-family: "Poppins";
+}
+
+.perfil-foto {
+    border: 3px solid #000;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+}
+
+.perfil-nome {
+    text-align:center;
+    margin-top:20px;
+}
+
