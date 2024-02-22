@@ -13,10 +13,10 @@ body {
 
 .folha {
     background-color: #1a1a1a;
-    height: 850px;
     margin: 91px 141px;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
+    padding-bottom: 7px;
 }
 
 #capa{
@@ -101,7 +101,7 @@ body {
 /* estilos padrão da folha de aula e folha 1: */
 
 #aula01 {
-    height: 1000px;
+    /* estilos personalizados */
 }
 
 .texto-aula {
@@ -178,20 +178,20 @@ body {
 .definicao-texto {
     font-size: 1.1rem;
     font-family: monospace;
-    padding: 3px;
+    padding: 5px;
     margin-left: 6px;
 }
 
 /* estilos aula 2 */
 
 #aula02 {
-    height: 900px;
+    /* personalizações */
 }
 
 /* estilos aula 3: */
 
 #aula03 {
-    height: 1300px;
+    /* personalizações */
 }
 
 /* Adicionei essa alteração basicamente pra retirar o margin-left padrão da classe "definicao-texto": */
@@ -210,19 +210,23 @@ body {
 /* estilos para a aula 04: */
 
 #aula04 {
-    /*  */
+    /*personalizações  */
 }
 
 .quadro {
-
+    margin-top: 15px;
 }
 
 .titulo-quadro {
     color:white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .conjuncoes-quadro {
-
+    display:flex;
+    justify-content: center;
+    padding: 2px;
 }
 
 /* (IMPLEMENTAÇÃO DO EXERCÍCIO): foi criado um id para cada linking word para diferenciá-las atraves de cores, o nome do id é a linking word por si só: */
@@ -264,4 +268,36 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
     background-color: pink;
+}
+
+#for {
+    color:black;
+    background-color:yellowgreen;
+    border: 2px solid black;
+    padding:2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#when {
+    color:#fff;
+    border: 2px solid black;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff1ac6;
+}
+
+#despite {
+    color:white;
+    border: 2px solid black;
+    padding: 3px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color:#262626;
+}
+
+#even-thoug {
+    color:black;
+    background-color: #006699;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
 }
